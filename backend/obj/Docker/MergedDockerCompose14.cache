@@ -1,0 +1,28 @@
+name: dockercompose13874196621146925399
+services:
+  postgres:
+    container_name: postgres
+    environment:
+      POSTGRES_DB: pet_project_note
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+    image: postgres
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "5438"
+        protocol: tcp
+    restart: always
+    volumes:
+      - type: volume
+        source: postgres-data
+        target: /var/lib/postgresql/data
+        volume: {}
+networks:
+  default:
+    name: dockercompose13874196621146925399_default
+volumes:
+  postgres-data:
+    name: dockercompose13874196621146925399_postgres-data

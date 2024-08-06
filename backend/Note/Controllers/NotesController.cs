@@ -30,7 +30,7 @@ public class NotesController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<IActionResult> Get(GetNotesRequest getNotesRequest, CancellationToken ct)
+    public async Task<IActionResult> Get([FromQuery]GetNotesRequest getNotesRequest, CancellationToken ct)
     {
         var notesQuery = _dbContext.Notes
             .Where(n => string.IsNullOrWhiteSpace(getNotesRequest.Search) 
