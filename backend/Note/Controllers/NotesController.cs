@@ -53,5 +53,24 @@ public class NotesController : ControllerBase
         
         return Ok(new GetNotesResponse(noteDtos));
     }
+
+    [HttpDelete]
+    public async Task<IActionResult> Delete([FromBody]DeleteNoteRequest deleteNoteRequest, CancellationToken ct)
+    {
+        await _dbContext.Notes
+            .Where(note => note.Id == deleteNoteRequest.Id)
+            .ExecuteDeleteAsync(ct);
+
+        return Ok();
+    }
+
+    [HttpPut]
+    public async Task<IActionResult> Update([FromBody]UpdateNoteRequest updateNoteRequest, CancellationToken ct)
+    {
+        await Delete(new DeleteNoteRequest(updateNoteRequest.Id), ct);
+        await Create(new CreateNoteRequest(updateNoteRequest.Title, updateNoteRequest.Description), ct);
+
+        return Ok();
+    }
 }
 
