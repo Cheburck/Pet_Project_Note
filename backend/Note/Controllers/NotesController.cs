@@ -55,7 +55,7 @@ public class NotesController : ControllerBase
     }
 
     [HttpDelete]
-    public async Task<IActionResult> Delete([FromBody]DeleteNoteRequest deleteNoteRequest, CancellationToken ct)
+    public async Task<IActionResult> Delete([FromBody] DeleteNoteRequest deleteNoteRequest, CancellationToken ct)
     {
         await _dbContext.Notes
             .Where(note => note.Id == deleteNoteRequest.Id)
@@ -65,7 +65,7 @@ public class NotesController : ControllerBase
     }
 
     [HttpPut]
-    public async Task<IActionResult> Update([FromBody]UpdateNoteRequest updateNoteRequest, CancellationToken ct)
+    public async Task<IActionResult> Update([FromBody] UpdateNoteRequest updateNoteRequest, CancellationToken ct)
     {
         await Delete(new DeleteNoteRequest(updateNoteRequest.Id), ct);
         await Create(new CreateNoteRequest(updateNoteRequest.Title, updateNoteRequest.Description), ct);
