@@ -34,7 +34,8 @@ public class NotesController : ControllerBase
     {
         var notesQuery = _dbContext.Notes
             .Where(n => string.IsNullOrWhiteSpace(getNotesRequest.Search) 
-                || n.Title.ToLower().Contains(getNotesRequest.Search.ToLower()));
+                || n.Title.ToLower().Contains(getNotesRequest.Search.ToLower())
+                || n.Description.ToLower().Contains(getNotesRequest.Search.ToLower()));
 
         Expression<Func<Note, Object>> selectorKey = getNotesRequest.SortItem switch
         {

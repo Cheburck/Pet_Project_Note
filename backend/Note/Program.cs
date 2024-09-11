@@ -1,5 +1,4 @@
 using Pet_Project_Note.DataAccess;
-using System.Net.WebSockets;
 
 var builder = WebApplication.CreateBuilder(args);
 

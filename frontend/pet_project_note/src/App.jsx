@@ -1,7 +1,7 @@
 import CreateNoteForm from './components/CreateNoteForm';
 import Note from './components/Note.jsx';
 import Filters from './components/Filters.jsx';
-import { createNote, deleteNote, fetchNotes } from './services/Notes.js';
+import { createNote, deleteNote, fetchNotes, updateNote } from './services/Notes.js';
 import { useEffect, useState } from 'react';
 
 function App() {
@@ -27,8 +27,14 @@ function App() {
 		setNotes(notes);
 	};
 
-	const onDelete = async (noteId) => {
-		await deleteNote(noteId);
+	const onDelete = async (deleteNoteRequest) => {
+		await deleteNote(deleteNoteRequest);
+		let notes = await fetchNotes(filter);
+		setNotes(notes);
+	}
+
+	const onUpdate = async (updateNoteRequest) => {
+		await updateNote(updateNoteRequest);
 		let notes = await fetchNotes(filter);
 		setNotes(notes);
 	}
@@ -45,10 +51,11 @@ function App() {
 					<li key={n.id}>
 						<Note
 							id = {n.id}
-							title={n.title}
-							description={n.description}
-							createdAt={n.createdAt}
-							onDelete={onDelete}
+							title = {n.title}
+							description = {n.description}
+							createdAt = {n.createdAt}
+							onDelete = {onDelete}
+							onUpdate = {onUpdate}
 						/>
 					</li>
 				))}
