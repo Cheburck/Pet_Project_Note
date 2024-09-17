@@ -1,0 +1,42 @@
+services:
+  database:
+    image: postgres:14
+    restart: always
+    environment:
+      POSTGRES_DB: notes_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    healthcheck:
+      test:
+        ["CMD-SHELL", "pg_isready", "-U", "postgres"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+
+  backend:
+    build: ./backend/Note
+    restart: always
+    environment:
+      PG_NAME: notes_db 
+      PG_USER: postgres
+      PG_PASSWORD: postgres
+      PG_HOST: database
+    ports:
+      - 127.0.0.1:8080:8080  
+    depends_on:
+      database:
+        condition: service_healthy
+
+  frontend:
+    build: ./frontend/pet_project_note
+    restart: always
+    ports:
+      - 127.0.0.1:80:80  
+    depends_on:
+      backend:
+        condition: service_started      
+
+volumes:
+  postgres:

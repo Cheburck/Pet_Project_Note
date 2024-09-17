@@ -11,7 +11,7 @@ export const fetchNotes = async (filter) => {
 			},
 		};
 		console.log("Getting notes", getNotesRequest)
-		const response = await axios.get('http://localhost:5045/notes', getNotesRequest);
+		const response = await axios.get('http://localhost:8080/notes', getNotesRequest);
 		console.log("Notes got",response.data.notes)
 		return response.data.notes;
 	} catch (e) {
@@ -22,7 +22,7 @@ export const fetchNotes = async (filter) => {
 export const createNote = async (createNoteRequest) => {
 	try {
 		console.log("Creating note", createNoteRequest)
-		const response = await axios.post('http://localhost:5045/notes', createNoteRequest);
+		const response = await axios.post('http://localhost:8080/notes', createNoteRequest);
 		console.log("Note created")
 
 		return response.status;
@@ -34,7 +34,7 @@ export const createNote = async (createNoteRequest) => {
 export const deleteNote = async (deleteNoteRequest) =>{
 	try{
 		console.log("Deleting note", deleteNoteRequest)
-		const response = await axios.delete('http://localhost:5045/notes', deleteNoteRequest);
+		const response = await axios.delete('http://localhost:8080/notes', deleteNoteRequest);
 		console.log("Note deleted")
 
 		return response.status;
@@ -54,7 +54,7 @@ export const updateNote = async(updateNoteRequest) =>{
 		// }
 
 		console.log("Updating note", updateNoteRequest);
-		const response = await axios.put('http://localhost:5045/notes', updateNoteRequest);
+		const response = await axios.put('http://localhost:8080/notes', updateNoteRequest);
 		console.log("Note updated");
 
 		return response.status;

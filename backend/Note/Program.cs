@@ -9,7 +9,7 @@ builder.Services.AddScoped<NotesDbContext>();
 builder.Services.AddCors(options =>
     options.AddDefaultPolicy(policy =>
     {
-        policy.WithOrigins("http://localhost:5173");
+        policy.AllowAnyOrigin();
         policy.AllowAnyHeader();
         policy.AllowAnyMethod();
     })
@@ -20,11 +20,23 @@ using var scope = app.Services.CreateScope();
 await using var dbContext = scope.ServiceProvider.GetRequiredService<NotesDbContext>();
 await dbContext.Database.EnsureCreatedAsync();
 
-if (app.Environment.IsDevelopment())
+
+app.UseSwagger();
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Notes API");
+    c.RoutePrefix = string.Empty; // Устанавливаем корневой маршрут
+});
+
+/*if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
-}
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Notes API");
+        c.RoutePrefix = string.Empty; // Устанавливаем корневой маршрут
+    });
+}*/
 
 app.UseCors();
 app.MapControllers();

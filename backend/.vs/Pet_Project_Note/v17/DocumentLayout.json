@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "D:\\Pet_Project_Note\\backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|d:\\pet_project_note\\backend\\note\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|solutionrelative:note\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|d:\\pet_project_note\\backend\\note\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|solutionrelative:note\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|d:\\pet_project_note\\backend\\note\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|solutionrelative:note\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|d:\\pet_project_note\\backend\\note\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|solutionrelative:note\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|d:\\pet_project_note\\backend\\note\\dataaccess\\notesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|solutionrelative:note\\dataaccess\\notesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|d:\\pet_project_note\\backend\\note\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|solutionrelative:note\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|d:\\pet_project_note\\backend\\note\\contracts\\updatenoterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|solutionrelative:note\\contracts\\updatenoterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|d:\\pet_project_note\\backend\\note\\contracts\\notedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,24 +39,56 @@
       "RelativeMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|solutionrelative:note\\contracts\\getnotesrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|d:\\pet_project_note\\backend\\note\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|solutionrelative:note\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|d:\\pet_project_note\\backend\\note\\contracts\\deletenoterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|solutionrelative:note\\contracts\\deletenoterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|d:\\pet_project_note\\backend\\note\\contracts\\updatenoterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|solutionrelative:note\\contracts\\updatenoterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|d:\\pet_project_note\\backend\\note\\contracts\\createnoterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|solutionrelative:note\\contracts\\createnoterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|d:\\pet_project_note\\backend\\note\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|solutionrelative:note\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|d:\\pet_project_note\\backend\\note\\pet_project_note.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|solutionrelative:note\\pet_project_note.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CEF587E-37D6-4C4E-B77A-4680DF66B990}|docker-compose.dcproj|d:\\pet_project_note\\backend\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{7CEF587E-37D6-4C4E-B77A-4680DF66B990}|docker-compose.dcproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CEF587E-37D6-4C4E-B77A-4680DF66B990}|docker-compose.dcproj|d:\\pet_project_note\\backend\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7CEF587E-37D6-4C4E-B77A-4680DF66B990}|docker-compose.dcproj|solutionrelative:launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CEF587E-37D6-4C4E-B77A-4680DF66B990}|docker-compose.dcproj|d:\\pet_project_note\\backend\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7CEF587E-37D6-4C4E-B77A-4680DF66B990}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|d:\\pet_project_note\\backend\\note\\pet_project_note.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|solutionrelative:note\\pet_project_note.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|d:\\pet_project_note\\backend\\note\\.gitattributes||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|solutionrelative:note\\.gitattributes||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|d:\\pet_project_note\\backend\\note\\contracts\\getnotesresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|solutionrelative:note\\contracts\\getnotesresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|d:\\pet_project_note\\backend\\note\\contracts\\deletenoterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|solutionrelative:note\\contracts\\deletenoterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|d:\\pet_project_note\\backend\\note\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|solutionrelative:note\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|d:\\pet_project_note\\backend\\note\\dataaccess\\notesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|solutionrelative:note\\dataaccess\\notesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7CEF587E-37D6-4C4E-B77A-4680DF66B990}|docker-compose.dcproj|d:\\pet_project_note\\backend\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7CEF587E-37D6-4C4E-B77A-4680DF66B990}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|d:\\pet_project_note\\backend\\note\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{991089B5-5779-4672-A7BC-8DE4249B8A04}|Note\\Pet_Project_Note.csproj|solutionrelative:note\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,17 +98,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "NotesController.cs",
               "DocumentMoniker": "D:\\Pet_Project_Note\\backend\\Note\\Controllers\\NotesController.cs",
               "RelativeDocumentMoniker": "Note\\Controllers\\NotesController.cs",
               "ToolTip": "D:\\Pet_Project_Note\\backend\\Note\\Controllers\\NotesController.cs",
               "RelativeToolTip": "Note\\Controllers\\NotesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAgwC0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T08:20:43.886Z",
               "IsPinned": true,
@@ -65,6 +121,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "NotesDbContext.cs",
+              "DocumentMoniker": "D:\\Pet_Project_Note\\backend\\Note\\DataAccess\\NotesDbContext.cs",
+              "RelativeDocumentMoniker": "Note\\DataAccess\\NotesDbContext.cs",
+              "ToolTip": "D:\\Pet_Project_Note\\backend\\Note\\DataAccess\\NotesDbContext.cs",
+              "RelativeToolTip": "Note\\DataAccess\\NotesDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T13:23:36.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Note.cs",
+              "DocumentMoniker": "D:\\Pet_Project_Note\\backend\\Note\\Models\\Note.cs",
+              "RelativeDocumentMoniker": "Note\\Models\\Note.cs",
+              "ToolTip": "D:\\Pet_Project_Note\\backend\\Note\\Models\\Note.cs",
+              "RelativeToolTip": "Note\\Models\\Note.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T18:14:00.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Pet_Project_Note\\backend\\Note\\appsettings.json",
+              "RelativeDocumentMoniker": "Note\\appsettings.json",
+              "ToolTip": "D:\\Pet_Project_Note\\backend\\Note\\appsettings.json",
+              "RelativeToolTip": "Note\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-17T15:13:46.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Pet_Project_Note\\backend\\Note\\Program.cs",
+              "RelativeDocumentMoniker": "Note\\Program.cs",
+              "ToolTip": "D:\\Pet_Project_Note\\backend\\Note\\Program.cs",
+              "RelativeToolTip": "Note\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T17:43:02.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Pet_Project_Note\\backend\\Note\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Note\\appsettings.Development.json",
+              "ToolTip": "D:\\Pet_Project_Note\\backend\\Note\\appsettings.Development.json",
+              "RelativeToolTip": "Note\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-17T15:43:17.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "UpdateNoteRequest.cs",
               "DocumentMoniker": "D:\\Pet_Project_Note\\backend\\Note\\Contracts\\UpdateNoteRequest.cs",
               "RelativeDocumentMoniker": "Note\\Contracts\\UpdateNoteRequest.cs",
@@ -77,7 +198,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "NoteDto.cs",
+              "DocumentMoniker": "D:\\Pet_Project_Note\\backend\\Note\\Contracts\\NoteDto.cs",
+              "RelativeDocumentMoniker": "Note\\Contracts\\NoteDto.cs",
+              "ToolTip": "D:\\Pet_Project_Note\\backend\\Note\\Contracts\\NoteDto.cs",
+              "RelativeToolTip": "Note\\Contracts\\NoteDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T17:35:17.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "GetNotesRequest.cs",
               "DocumentMoniker": "D:\\Pet_Project_Note\\backend\\Note\\Contracts\\GetNotesRequest.cs",
               "RelativeDocumentMoniker": "Note\\Contracts\\GetNotesRequest.cs",
@@ -90,33 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NoteDto.cs",
-              "DocumentMoniker": "D:\\Pet_Project_Note\\backend\\Note\\Contracts\\NoteDto.cs",
-              "RelativeDocumentMoniker": "Note\\Contracts\\NoteDto.cs",
-              "ToolTip": "D:\\Pet_Project_Note\\backend\\Note\\Contracts\\NoteDto.cs",
-              "RelativeToolTip": "Note\\Contracts\\NoteDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T17:35:17.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Pet_Project_Note\\backend\\Note\\Program.cs",
-              "RelativeDocumentMoniker": "Note\\Program.cs",
-              "ToolTip": "D:\\Pet_Project_Note\\backend\\Note\\Program.cs",
-              "RelativeToolTip": "Note\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T17:43:02.841Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "DeleteNoteRequest.cs",
               "DocumentMoniker": "D:\\Pet_Project_Note\\backend\\Note\\Contracts\\DeleteNoteRequest.cs",
               "RelativeDocumentMoniker": "Note\\Contracts\\DeleteNoteRequest.cs",
@@ -124,11 +232,115 @@
               "RelativeToolTip": "Note\\Contracts\\DeleteNoteRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T17:31:56.465Z"
+              "WhenOpened": "2024-09-09T17:31:56.465Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
+              "Title": "CreateNoteRequest.cs",
+              "DocumentMoniker": "D:\\Pet_Project_Note\\backend\\Note\\Contracts\\CreateNoteRequest.cs",
+              "RelativeDocumentMoniker": "Note\\Contracts\\CreateNoteRequest.cs",
+              "ToolTip": "D:\\Pet_Project_Note\\backend\\Note\\Contracts\\CreateNoteRequest.cs",
+              "RelativeToolTip": "Note\\Contracts\\CreateNoteRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T18:13:18.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Pet_Project_Note\\backend\\Note\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Note\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Pet_Project_Note\\backend\\Note\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Note\\Properties\\launchSettings.json",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-17T15:35:45.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Pet_Project_Note",
+              "DocumentMoniker": "D:\\Pet_Project_Note\\backend\\Note\\Pet_Project_Note.csproj",
+              "RelativeDocumentMoniker": "Note\\Pet_Project_Note.csproj",
+              "ToolTip": "D:\\Pet_Project_Note\\backend\\Note\\Pet_Project_Note.csproj",
+              "RelativeToolTip": "Note\\Pet_Project_Note.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-17T15:36:51.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "D:\\Pet_Project_Note\\backend\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "D:\\Pet_Project_Note\\backend\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-17T15:14:50.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Pet_Project_Note\\backend\\launchSettings.json",
+              "RelativeDocumentMoniker": "launchSettings.json",
+              "ToolTip": "D:\\Pet_Project_Note\\backend\\launchSettings.json",
+              "RelativeToolTip": "launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-17T15:36:06.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "D:\\Pet_Project_Note\\backend\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "D:\\Pet_Project_Note\\backend\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-09-17T15:14:28.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Pet_Project_Note.http",
+              "DocumentMoniker": "D:\\Pet_Project_Note\\backend\\Note\\Pet_Project_Note.http",
+              "RelativeDocumentMoniker": "Note\\Pet_Project_Note.http",
+              "ToolTip": "D:\\Pet_Project_Note\\backend\\Note\\Pet_Project_Note.http",
+              "RelativeToolTip": "Note\\Pet_Project_Note.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-09-17T15:35:21.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": ".gitattributes",
+              "DocumentMoniker": "D:\\Pet_Project_Note\\backend\\Note\\.gitattributes",
+              "RelativeDocumentMoniker": "Note\\.gitattributes",
+              "ToolTip": "D:\\Pet_Project_Note\\backend\\Note\\.gitattributes",
+              "RelativeToolTip": "Note\\.gitattributes",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHgSURBVEhLtZVdTsJAFIWroTyDK3ELJuCbsA1ZhQRFRETkV6yV8AAsgAI\u002BugW3wAr0RUop7Tj3dmagtLXFhJOc3mEynXu\u002BSWmlg4oQcsSGqOFwSKcIzAcY7rFZdeZkWf42DOMsl7v8ZNsEazAYEMuyXF5zr7nXWG3bJqPRiMznc6Kqb1\u002BtdueUbePSMasoSASiN0sW2AJbwrSRMKwBJZNJKZVOJeJx\u002BaPRbHma\u002BDbAqzOMpBPa5DydxiZsSijGKoo30MZjrH8pm81iVRQFKygmxxNs6K9\u002Bv4/nvlqZ1CticBuOl8IGWS4NogsviWmuSe2p7uH2EMAKTQsn2FUmkxUnEKher4dPjH9ymjogva47BNXHWhgBXCRpomnOxB6KRKCqKhJsznoneUD6BSOoPFSjEUwnByJQlFf8l7rTO6ndyalZcm7TNEn5vhJG4CD8h\u002BAikwkn6HZf8F3jSSu8OfNt/yx0sqIEpbtyOAGsmE4nzsQeikTQ7jwTkxKItCyxX2qenBsIirelcAJAmB2KoNlq4/Psl1Z4K/UuQeGmGIGA6n02xbqPgIBuwH4FqN5o4vMMKYOSBhkI8oVrTwfPBwdWxOQYWt7D/P5duT768D7HJhFtU9MBVj5XyF\u002B59jywJOkX7ucXnGOxDX8AAAAASUVORK5CYII=",
+              "WhenOpened": "2024-09-17T15:37:33.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "GetNotesResponse.cs",
               "DocumentMoniker": "D:\\Pet_Project_Note\\backend\\Note\\Contracts\\GetNotesResponse.cs",
               "RelativeDocumentMoniker": "Note\\Contracts\\GetNotesResponse.cs",
@@ -136,19 +348,47 @@
               "RelativeToolTip": "Note\\Contracts\\GetNotesResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T13:46:10.096Z"
+              "WhenOpened": "2024-09-10T13:46:10.096Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NotesDbContext.cs",
-              "DocumentMoniker": "D:\\Pet_Project_Note\\backend\\Note\\DataAccess\\NotesDbContext.cs",
-              "RelativeDocumentMoniker": "Note\\DataAccess\\NotesDbContext.cs",
-              "ToolTip": "D:\\Pet_Project_Note\\backend\\Note\\DataAccess\\NotesDbContext.cs",
-              "RelativeToolTip": "Note\\DataAccess\\NotesDbContext.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA1wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T13:23:36.657Z"
+              "DocumentIndex": 19,
+              "Title": "libman.json",
+              "DocumentMoniker": "D:\\Pet_Project_Note\\backend\\Note\\libman.json",
+              "RelativeDocumentMoniker": "Note\\libman.json",
+              "ToolTip": "D:\\Pet_Project_Note\\backend\\Note\\libman.json",
+              "RelativeToolTip": "Note\\libman.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-17T15:35:19.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "docker-compose",
+              "DocumentMoniker": "D:\\Pet_Project_Note\\backend\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "D:\\Pet_Project_Note\\backend\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-17T15:31:50.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Pet_Project_Note\\backend\\Note\\Dockerfile",
+              "RelativeDocumentMoniker": "Note\\Dockerfile",
+              "ToolTip": "D:\\Pet_Project_Note\\backend\\Note\\Dockerfile",
+              "RelativeToolTip": "Note\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-17T15:13:49.639Z",
+              "EditorCaption": ""
             }
           ]
         }
