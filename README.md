@@ -13,6 +13,7 @@
 ```docker
 docker compose --env-file .env up -d --build
 ```
+Приложение будет доступно по адресу http://127.0.0.1/
 # Backend
 ASP.NET Core, Entity Framework, PostgreSQL
 # Frontend
