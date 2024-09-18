@@ -1,1 +1,0 @@
-D:\Projects C#\Pet_Project_Note\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
